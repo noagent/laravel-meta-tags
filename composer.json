@@ -1,5 +1,5 @@
 {
-  "name": "torann/laravel-meta-tags",
+  "name": "howsy/laravel-meta-tags",
   "keywords": ["meta tags", "meta", "tags", "head", "laravel"],
   "description": "A package to manage Header Meta Tags",
   "license": "MIT",
