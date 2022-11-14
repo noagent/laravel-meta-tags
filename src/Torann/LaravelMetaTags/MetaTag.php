@@ -58,10 +58,10 @@ class MetaTag
 
     /**
      * @param  \Illuminate\Http\Request  $request
-     * @param  array $config
      * @param  string $defaultLocale
+     * @param  array $config
      */
-    public function __construct(Request $request, array $config = [], $defaultLocale)
+    public function __construct(Request $request, $defaultLocale, array $config = [])
     {
         $this->request = $request;
         $this->config = $config;
